@@ -55,9 +55,9 @@ Return your output **only in JSON format**, including only the package, tooling_
     {vendor_components}
     """
 
-# ============================================================
+# ===================================
 # AGENTIC FUNCTION – query the LLM
-# ============================================================
+# ===================================
 def query_model(prompt: str, max_new_tokens: int = 512) -> str:
     """Send a reasoning-style prompt to GPT-OSS 20B via Hugging Face API."""
     payload = {
@@ -78,6 +78,7 @@ def query_model(prompt: str, max_new_tokens: int = 512) -> str:
         return data[0]["generated_text"].strip()
     recommendation = json.loads(data["choices"][0]["message"]['content'])
     return recommendation
+
 # cleans and normalizes tex
 def clean_text(text):
     if not text:
@@ -95,7 +96,7 @@ def generate_sme_pdf_append(sme_results, filename):
     """
     Adds a new page for a single SME into an existing PDF.
 
-    :param sme_result: dict with keys 'name', 'package', 'tools' (list), 'justification', 'reasoning' (optional)
+    :param sme_result: dict with keys
     :param filename: target PDF file name
     """
     if os.path.exists(filename):
@@ -144,9 +145,9 @@ def generate_sme_pdf_append(sme_results, filename):
     doc.build(story)
     print(f"✅ PDF created: {filename}")
 
-# --------------------------
+# --------------------------------------
 # Start processing the SME  profiles
-# --------------------------
+# --------------------------------------
 
 # CONFIGURATION
 HF_API_TOKEN = os.getenv("HF_API_TOKEN")
