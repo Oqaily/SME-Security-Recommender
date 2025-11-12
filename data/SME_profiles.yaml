@@ -1,0 +1,68 @@
+SME_Profiles:
+  - SME_Name: Fintech Startup
+    Industry: Fintech
+    Size:
+      Headcount: 45
+      Endpoints: 70
+    Cloud_On_Prem_Mix:
+      Cloud: 90%
+      On_Prem: 10%
+    Regulatory_Drivers:
+      - Central Bank of Jordan (CBJ) Cybersecurity Framework
+      - ISO 27001
+      - PDPL (Personal Data Protection Law)
+    Monthly_Budget_Band: "$2–5k"
+
+  - SME_Name: Healthcare Clinic Network
+    Industry: Healthcare
+    Size:
+      Headcount: 120
+      Endpoints: 180
+    Cloud_On_Prem_Mix:
+      Cloud: 60%
+      On_Prem: 40%
+    Regulatory_Drivers:
+      - PDPL (Jordan Personal Data Protection Law)
+      - ISO 27799 (Health Informatics – Information Security)
+      - HIPAA-equivalent healthcare standards
+    Monthly_Budget_Band: "> $5k"
+
+  - SME_Name: Manufacturing Company
+    Industry: Manufacturing
+    Size:
+      Headcount: 250
+      Endpoints: 300
+    Cloud_On_Prem_Mix:
+      Cloud: 40%
+      On_Prem: 60%
+    Regulatory_Drivers:
+      - ISO 9001 (Quality Management)
+      - ISO 27001 (Information Security)
+      - Local safety and data retention laws
+    Monthly_Budget_Band: "$2–5k"
+
+  - SME_Name: Professional Services Firm
+    Industry: Consulting / Legal / Accounting
+    Size:
+      Headcount: 30
+      Endpoints: 50
+    Cloud_On_Prem_Mix:
+      Cloud: 95%
+      On_Prem: 5%
+    Regulatory_Drivers:
+      - PDPL (Personal Data Protection Law)
+      - ISO 27001
+    Monthly_Budget_Band: "< $2k"
+
+  - SME_Name: Private Educational Institution
+    Industry: Education
+    Size:
+      Headcount: 80
+      Endpoints: 150
+    Cloud_On_Prem_Mix:
+      Cloud: 70%
+      On_Prem: 30%
+    Regulatory_Drivers:
+      - PDPL
+      - ISO 27001
+    Monthly_Budget_Band: "$2–5k"

@@ -1,0 +1,13 @@
+EDR
+NDR
+SIEM
+TI
+DLP
+24/7 SOC Monitoring
+Host-based IDS/IPS
+Vulnerability Scanning & Pen Test
+Device Hardening
+Tools Administration
+Virtual CISO / Compliance Reporting
+Brand & Reputation Protection
+Digital Forensics / SOAR

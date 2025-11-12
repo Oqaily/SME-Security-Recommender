@@ -1,0 +1,115 @@
+[
+  {
+    "SME_Name": "Fintech Startup",
+    "Industry": "Fintech",
+    "Headcount": 45,
+    "Endpoints": 70,
+    "Cloud": "90%",
+    "On_Prem": "10%",
+    "Regulatory_Drivers": [
+      "Central Bank of Jordan (CBJ) Cybersecurity Framework",
+      "ISO 27001",
+      "PDPL (Personal Data Protection Law)"
+    ],
+    "Monthly_Budget_Band": "$2–5k",
+    "Recommended_Package": "Green Grape",
+    "Tooling_Stack": [
+      "24/7 SOC Monitoring",
+      "SIEM",
+      "EDR",
+      "Threat Intelligence (TI)",
+      "Virtual CISO / Compliance Reporting"
+    ],
+    "Justification": "Green Grape offers the necessary blend of monitoring, endpoint protection, threat intelligence, and compliance reporting required for a fintech startup operating mostly in the cloud, meeting CBJ, ISO27001 and PDPL mandates while staying within the $2‑5k monthly budget."
+  },
+  {
+    "SME_Name": "Healthcare Clinic Network",
+    "Industry": "Healthcare",
+    "Headcount": 120,
+    "Endpoints": 180,
+    "Cloud": "60%",
+    "On_Prem": "40%",
+    "Regulatory_Drivers": [
+      "PDPL (Jordan Personal Data Protection Law)",
+      "ISO 27799 (Health Informatics – Information Security)",
+      "HIPAA-equivalent healthcare standards"
+    ],
+    "Monthly_Budget_Band": "> $5k",
+    "Recommended_Package": "Green Kiwi",
+    "Tooling_Stack": [
+      "SIEM",
+      "EDR",
+      "DLP",
+      "24/7 SOC Monitoring",
+      "Digital Forensics / SOAR"
+    ],
+    "Justification": "Green Kiwi delivers full endpoint protection, data loss prevention, compliance reporting, and automated incident response—essential for a healthcare clinic meeting PDPL, ISO 27799, and HIPAA‑equivalent standards while comfortably fitting a >$5k monthly budget."
+  },
+  {
+    "SME_Name": "Manufacturing Company",
+    "Industry": "Manufacturing",
+    "Headcount": 250,
+    "Endpoints": 300,
+    "Cloud": "40%",
+    "On_Prem": "60%",
+    "Regulatory_Drivers": [
+      "ISO 9001 (Quality Management)",
+      "ISO 27001 (Information Security)",
+      "Local safety and data retention laws"
+    ],
+    "Monthly_Budget_Band": "$2–5k",
+    "Recommended_Package": "Green Grape",
+    "Tooling_Stack": [
+      "SIEM",
+      "EDR",
+      "TI",
+      "Tools Administration",
+      "Virtual CISO / Compliance Reporting"
+    ],
+    "Justification": "Green Grape balances comprehensive ISO 27001‑aligned security with a mid‑tier budget, offering EDR, SIEM, threat intelligence and compliance reporting; the selected stack delivers endpoint protection, threat monitoring, and automated regulatory documentation within the $2–5k monthly range."
+  },
+  {
+    "SME_Name": "Professional Services Firm",
+    "Industry": "Consulting / Legal / Accounting",
+    "Headcount": 30,
+    "Endpoints": 50,
+    "Cloud": "95%",
+    "On_Prem": "5%",
+    "Regulatory_Drivers": [
+      "PDPL (Personal Data Protection Law)",
+      "ISO 27001"
+    ],
+    "Monthly_Budget_Band": "< $2k",
+    "Recommended_Package": "Green Grape",
+    "Tooling_Stack": [
+      "EDR",
+      "SIEM",
+      "24/7 SOC Monitoring",
+      "Tools Administration",
+      "Virtual CISO / Compliance Reporting"
+    ],
+    "Justification": "The firm’s PDPL and ISO 27001 obligations demand robust compliance reporting and advanced endpoint protection while staying under a $2k/month budget, making Green Grape’s mid‑tier suite with EDR, SIEM, SOC monitoring and virtual CISO reporting the most cost‑effective fit."
+  },
+  {
+    "SME_Name": "Private Educational Institution",
+    "Industry": "Education",
+    "Headcount": 80,
+    "Endpoints": 150,
+    "Cloud": "70%",
+    "On_Prem": "30%",
+    "Regulatory_Drivers": [
+      "PDPL",
+      "ISO 27001"
+    ],
+    "Monthly_Budget_Band": "$2–5k",
+    "Recommended_Package": "Green Grape",
+    "Tooling_Stack": [
+      "SIEM",
+      "EDR",
+      "24/7 SOC Monitoring",
+      "Tools Administration",
+      "Virtual CISO / Compliance Reporting"
+    ],
+    "Justification": "Green Grape offers essential endpoint protection, threat intelligence, and compliance reporting needed for a 80‑person educational institution with mixed cloud/on‑prem infrastructure, while staying within the $2‑5k monthly budget."
+  }
+]

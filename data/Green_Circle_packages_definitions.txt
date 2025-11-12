@@ -1,0 +1,5 @@
+Green Apple: Entry-level monitored security package for SMEs. Provides 24/7 SOC monitoring, managed SIEM, host-based IDS on servers, network vulnerability scanning, and device hardening. Focuses on essential protections for detection, compliance, and endpoint security.
+
+Green Grape: Mid-tier managed security package. Includes all Green Apple features plus tools administration, endpoint protection (EDR), threat intelligence integration, and virtual CISO/regulatory reporting.
+
+Green Kiwi: Advanced security package. Includes all Green Grape features plus brand & reputation protection, DLP, digital forensics, SOAR automation, and advanced threat hunting.

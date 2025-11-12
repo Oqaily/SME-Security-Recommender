@@ -1,0 +1,6 @@
+PyYAML
+requests
+reportlab
+python-dotenv
+openai
+pychain

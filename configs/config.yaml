@@ -1,0 +1,8 @@
+model: "openai/gpt-oss-safeguard-20b:groq"
+HF_API_URL: https://router.huggingface.co/v1/chat/completions
+
+
+input_profiles: "./data/sme_profiles.yaml"
+vendor_components: "./data/vendor_components.txt"
+package_definitions: "./data/Green_Circle_packages_definitions.txt"
+
